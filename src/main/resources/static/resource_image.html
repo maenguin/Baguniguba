@@ -1,0 +1,22 @@
+
+<head>
+    <meta name="viewport" content="width=device-width, minimum-scale=0.1">
+    <title>±×¸²1.png (1022¡¿683)</title>
+</head>
+<script>
+
+    function f(name) {
+        var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+        return results[1] || 0;
+    }
+    var url = f("url");
+
+    function f1() {
+        var sr = "<img src=>"+url;
+    }
+</script>
+
+<body style="margin: 0px; background: #0e0e0e;">
+<img id="image" style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src=""; width= 100%; height=100% >
+ <script>document.getElementById('image').src=f("url")</script>
+</body>
